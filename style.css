@@ -1,0 +1,80 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h1 {
+  margin: 0 0 10px 0;
+}
+.status-message {
+  color: #ffcc00;
+  font-weight: bold;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 300px;
+  width: 100%;
+  gap: 10px;
+}
+#numberInput {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #555;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+#numberInput:focus {
+  outline: none;
+  border-color: #66f;
+}
+button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #333;
+}
+#resetButton {
+  background-color: #555;
+  color: #fff;
+}
+#resetButton:hover {
+  background-color: #777;
+}
+.number-display {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.number-item {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  border-radius: 4px;
+  font-size: 1.2em;
+  transition: transform 0.2s, background-color 0.2s;
+}
+.number-item:hover {
+  background-color: #444;
+  transform: scale(1.1);
+}%
